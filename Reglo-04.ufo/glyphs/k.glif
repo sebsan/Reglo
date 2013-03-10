@@ -2,9 +2,6 @@
 <glyph name="k" format="1">
   <advance width="520"/>
   <unicode hex="006B"/>
-  <note>
-    
-  </note>
   <outline>
     <contour>
       <point x="200" y="830" type="line"/>
