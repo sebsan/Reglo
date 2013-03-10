@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="interpolation.25" format="1">
+  <advance width="648"/>
+  <outline>
+    <contour>
+      <point x="638" y="686" type="line"/>
+      <point x="13" y="686" type="line"/>
+      <point x="13" y="832" type="line"/>
+      <point x="638" y="832" type="line"/>
+    </contour>
+    <contour>
+      <point x="399" y="0" type="line"/>
+      <point x="253" y="0" type="line"/>
+      <point x="253" y="822" type="line"/>
+      <point x="399" y="822" type="line"/>
+    </contour>
+  </outline>
+</glyph>
