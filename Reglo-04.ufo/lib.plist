@@ -100,6 +100,14 @@
 		<string>interpolation.50</string>
 		<string>interpolation.75</string>
 		<string>interpolation.100</string>
+		<string>Acircumflex</string>
+		<string>Agrave</string>
+		<string>Eacute</string>
+		<string>Ecircumflex</string>
+		<string>Edieresis</string>
+		<string>Egrave</string>
+		<string>Idieresis</string>
+		<string>ydieresis</string>
 	</array>
 </dict>
 </plist>
