@@ -1,10 +1,15 @@
-#Reglo Bold
+##Reglo Bold
+
+Reglo Bold is a geometric Sans. Initialy designed for the identity of Radio Panik with Open Source Publishing. 
 
 ##Contribute
 #####Recommendations:
 1. Improve spacing
 2. Improve kerning
 3. Add missing glyphs
+
+##Font specimen
+www.love-letters.be
 
 ##License
 
