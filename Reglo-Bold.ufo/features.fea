@@ -10,6 +10,13 @@ lookup kernHorizontalKerninglookup0 {
     pos \F \L 0;
     pos \L \T -80;
     pos \L \quotedblleft -70;
+    pos \T \J -100;
+    pos \T \S -30;
+    pos \T \E -20;
+    pos \T \O -40;
+    pos \T \A -50;
+    pos \T \C -40;
+    pos \T \G -40;
     pos \T \f -40;
     pos \T \z -40;
     pos \T \v -30;
