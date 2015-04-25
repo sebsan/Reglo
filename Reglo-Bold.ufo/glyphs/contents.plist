@@ -236,5 +236,11 @@
     <string>bracketleft.glif</string>
     <key>bracketright</key>
     <string>bracketright.glif</string>
+    <key>braceleft</key>
+    <string>braceleft.glif</string>
+    <key>bar</key>
+    <string>bar.glif</string>
+    <key>braceright</key>
+    <string>braceright.glif</string>
   </dict>
 </plist>
