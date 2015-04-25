@@ -90,6 +90,8 @@
 	<string>b.glif</string>
 	<key>backslash</key>
 	<string>backslash.glif</string>
+	<key>braceleft</key>
+	<string>braceleft.glif</string>
 	<key>bullet</key>
 	<string>bullet.glif</string>
 	<key>c</key>
@@ -104,6 +106,8 @@
 	<string>d.glif</string>
 	<key>dieresis</key>
 	<string>dieresis.glif</string>
+	<key>dollar</key>
+	<string>dollar.glif</string>
 	<key>e</key>
 	<string>e.glif</string>
 	<key>eacute</key>
@@ -172,6 +176,8 @@
 	<string>parenleft.glif</string>
 	<key>parenright</key>
 	<string>parenright.glif</string>
+	<key>percent</key>
+	<string>percent.glif</string>
 	<key>period</key>
 	<string>period.glif</string>
 	<key>periodcentered</key>
