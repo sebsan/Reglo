@@ -2,7 +2,7 @@ languagesystem DFLT dflt;
 languagesystem latn dflt;
 
 
-# GPOS 
+# GPOS
 
 
 lookup kernHorizontalKerninglookup0 {
@@ -69,28 +69,19 @@ feature cpsp {
       lookup cpspCapitalSpacinginLatinlookup;
 } cpsp;
 
-@GDEF_Simple = [\A \Acircumflex \Agrave \B \C \D \E \Eacute \Ecircumflex \Edieresis 
-	\Egrave \F \G \H \I \Idieresis \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \a \aacute 
-	\acircumflex \agrave \ampersand \asciicircum \asterisk \at \b \backslash 
-	\braceleft \bullet \c \colon \comma \d \dollar \e \eacute \ecircumflex \edieresis 
-	\egrave \eight \ellipsis \emdash \endash \equal \exclam \exclamdown \f \five \four 
-	\g \greater \h \hyphen \i \j \k \l \less \m \n \nine \numbersign \o \one \p \parenleft 
-	\parenright \percent \period \periodcentered \plus \q \question \questiondown 
-	\quotedbl \quotedblleft \quotedblright \quoteleft \quoteright \quotesingle \r 
-	\s \semicolon \seven \six \slash \space \t \three \two \u \underscore \v \w \x \y \z 
-<<<<<<< Updated upstream
-	\zero \yen ];
-=======
-<<<<<<< HEAD
-	\zero \braceright ];
-=======
-	\zero \yen ];
->>>>>>> origin/master
->>>>>>> Stashed changes
+@GDEF_Simple = [\A \Acircumflex \Agrave \B \C \D \E \Eacute \Ecircumflex \Edieresis
+	\Egrave \F \G \H \I \Idieresis \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \a \aacute
+	\acircumflex \agrave \ampersand \asciicircum \asterisk \at \b \backslash
+	\braceleft \bullet \c \colon \comma \d \dollar \e \eacute \ecircumflex \edieresis
+	\egrave \eight \ellipsis \emdash \endash \equal \exclam \exclamdown \f \five \four
+	\g \greater \h \hyphen \i \j \k \l \less \m \n \nine \numbersign \o \one \p \parenleft
+	\parenright \percent \period \periodcentered \plus \q \question \questiondown
+	\quotedbl \quotedblleft \quotedblright \quoteleft \quoteright \quotesingle \r
+	\s \semicolon \seven \six \slash \space \t \three \two \u \underscore \v \w \x \y \z
+	\zero \yen \braceright ];
 @GDEF_Mark = [\acute \circumflex \dieresis \grave ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
 
 } GDEF;
-

@@ -29,15 +29,7 @@
     <key>note</key>
     <string></string>
     <key>openTypeHeadCreated</key>
-<<<<<<< Updated upstream
-    <string>2015/04/25 18:57:12</string>
-=======
-<<<<<<< HEAD
     <string>2015/04/25 19:06:38</string>
-=======
-    <string>2015/04/25 18:57:12</string>
->>>>>>> origin/master
->>>>>>> Stashed changes
     <key>openTypeHheaAscender</key>
     <integer>950</integer>
     <key>openTypeHheaDescender</key>

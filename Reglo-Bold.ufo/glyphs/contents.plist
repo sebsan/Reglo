@@ -92,6 +92,8 @@
     <string>backslash.glif</string>
     <key>braceleft</key>
     <string>braceleft.glif</string>
+    <key>braceright</key>
+    <string>braceright.glif</string>
     <key>bullet</key>
     <string>bullet.glif</string>
     <key>c</key>
@@ -236,19 +238,9 @@
     <string>y.glif</string>
     <key>z</key>
     <string>z.glif</string>
+    <key>yen</key>
+    <string>yen.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
-<<<<<<< Updated upstream
-    <key>yen</key>
-    <string>yen.glif</string>
-=======
-<<<<<<< HEAD
-    <key>braceright</key>
-    <string>braceright.glif</string>
-=======
-    <key>yen</key>
-    <string>yen.glif</string>
->>>>>>> origin/master
->>>>>>> Stashed changes
   </dict>
 </plist>
