@@ -23,6 +23,15 @@ lookup pos_pair_kern_0 {
     pos \T \z -40;
 } pos_pair_kern_0;
 
+lookup pos_pair_kern_2 {
+  lookupflag 0;
+    pos \F \L 0;
+    pos \L \T -80;
+    pos \L \quotedblleft -70;
+    pos \T \f -40;
+    pos \T \z -40;
+} pos_pair_kern_2;
+
 lookup cpspCapitalSpacinginLatinlookup {
   lookupflag 0;
     pos \A <5 0 10 0>;
@@ -66,6 +75,7 @@ feature kern {
      language dflt ;
       lookup kernHorizontalKerninglookup0;
       lookup pos_pair_kern_0;
+      lookup pos_pair_kern_2;
 } kern;
 
 feature cpsp {
@@ -88,7 +98,7 @@ feature cpsp {
 	\parenleft \parenright \percent \period \periodcentered \plus \q \question 
 	\questiondown \quotedbl \quotedblleft \quotedblright \quoteleft \quoteright 
 	\quotesingle \r \s \semicolon \seven \six \slash \space \t \three \two \u 
-	\underscore \v \w \x \y \z \yen \zero ];
+	\underscore \v \w \x \y \z \yen \zero \cent ];
 @GDEF_Mark = [\acute \circumflex \dieresis \grave ];
 
 table GDEF {

@@ -242,5 +242,7 @@
     <string>yen.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
+    <key>cent</key>
+    <string>cent.glif</string>
   </dict>
 </plist>
