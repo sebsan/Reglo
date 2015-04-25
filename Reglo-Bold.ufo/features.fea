@@ -10,6 +10,31 @@ lookup kernHorizontalKerninglookup0 {
     pos \F \L 0;
     pos \L \T -80;
     pos \L \quotedblleft -70;
+    pos \T \f -40;
+    pos \T \z -40;
+    pos \T \v -30;
+    pos \T \m -40;
+    pos \T \q -80;
+    pos \T \s -80;
+    pos \T \n -60;
+    pos \T \d -80;
+    pos \T \u -80;
+    pos \T \e -80;
+    pos \T \o -80;
+    pos \T \a -80;
+    pos \T \l -20;
+    pos \T \r -60;
+    pos \T \c -80;
+    pos \T \g -70;
+    pos \T \y -40;
+    pos \T \p -60;
+} kernHorizontalKerninglookup0;
+
+lookup pos_pair_kern_0 {
+  lookupflag 0;
+    pos \F \L 0;
+    pos \L \T -80;
+    pos \L \quotedblleft -70;
     pos \T \v -30;
     pos \T \m -40;
     pos \T \q -80;
@@ -28,7 +53,7 @@ lookup kernHorizontalKerninglookup0 {
     pos \T \p -60;
     pos \T \f -40;
     pos \T \z -40;
-} kernHorizontalKerninglookup0;
+} pos_pair_kern_0;
 
 lookup cpspCapitalSpacinginLatinlookup {
   lookupflag 0;
@@ -72,6 +97,7 @@ feature kern {
  script DFLT;
      language dflt ;
       lookup kernHorizontalKerninglookup0;
+      lookup pos_pair_kern_0;
 } kern;
 
 feature cpsp {
@@ -93,7 +119,8 @@ feature cpsp {
 	\j \k \l \less \m \n \nine \numbersign \o \one \p \parenleft \parenright \period 
 	\periodcentered \plus \q \question \questiondown \quotedbl \quotedblleft 
 	\quotedblright \quoteleft \quoteright \quotesingle \r \s \semicolon \seven \six 
-	\slash \space \t \three \two \u \underscore \v \w \x \y \z \zero ];
+	\slash \space \t \three \two \u \underscore \v \w \x \y \z \zero \bracketleft 
+	\bracketright ];
 @GDEF_Mark = [\acute \circumflex \dieresis \grave ];
 
 table GDEF {

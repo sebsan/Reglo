@@ -232,5 +232,9 @@
     <string>z.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
+    <key>bracketleft</key>
+    <string>bracketleft.glif</string>
+    <key>bracketright</key>
+    <string>bracketright.glif</string>
   </dict>
 </plist>
