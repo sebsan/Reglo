@@ -238,7 +238,17 @@
     <string>z.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
+<<<<<<< Updated upstream
     <key>yen</key>
     <string>yen.glif</string>
+=======
+<<<<<<< HEAD
+    <key>braceright</key>
+    <string>braceright.glif</string>
+=======
+    <key>yen</key>
+    <string>yen.glif</string>
+>>>>>>> origin/master
+>>>>>>> Stashed changes
   </dict>
 </plist>

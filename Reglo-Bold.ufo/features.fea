@@ -78,7 +78,15 @@ feature cpsp {
 	\parenright \percent \period \periodcentered \plus \q \question \questiondown 
 	\quotedbl \quotedblleft \quotedblright \quoteleft \quoteright \quotesingle \r 
 	\s \semicolon \seven \six \slash \space \t \three \two \u \underscore \v \w \x \y \z 
+<<<<<<< Updated upstream
 	\zero \yen ];
+=======
+<<<<<<< HEAD
+	\zero \braceright ];
+=======
+	\zero \yen ];
+>>>>>>> origin/master
+>>>>>>> Stashed changes
 @GDEF_Mark = [\acute \circumflex \dieresis \grave ];
 
 table GDEF {
