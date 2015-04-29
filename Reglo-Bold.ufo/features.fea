@@ -1,10 +1,7 @@
+# Prefix: Prefix
 languagesystem DFLT dflt;
 languagesystem latn dflt;
-
-
 # GPOS 
-
-
 lookup kernHorizontalKerninglookup0 {
   lookupflag 0;
     pos \F \L 0;
@@ -195,29 +192,7 @@ lookup cpspCapitalSpacinginLatinlookup {
     pos \Z <5 0 10 0>;
 } cpspCapitalSpacinginLatinlookup;
 
-feature kern {
-
- script DFLT;
-     language dflt ;
-      lookup kernHorizontalKerninglookup0;
-      lookup pos_pair_kern_0;
-      lookup pos_pair_kern_2;
-      lookup pos_pair_kern_4;
-      lookup pos_pair_kern_6;
-} kern;
-
-feature cpsp {
-
- script DFLT;
-     language dflt ;
-      lookup cpspCapitalSpacinginLatinlookup;
-
- script latn;
-     language dflt ;
-      lookup cpspCapitalSpacinginLatinlookup;
-} cpsp;
-
-@GDEF_Simple = [\A \Acircumflex \Agrave \B \C \D \E \Eacute \Ecircumflex \Edieresis 
+@GDEF_Simple = [ \A \Acircumflex \Agrave \B \C \D \E \Eacute \Ecircumflex \Edieresis 
 	\Egrave \F \G \H \I \Idieresis \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \a \aacute 
 	\acircumflex \agrave \ampersand \asciicircum \asterisk \at \b \backslash \bar 
 	\braceleft \braceright \bracketleft \bracketright \bullet \c \cent \colon 
@@ -227,11 +202,21 @@ feature cpsp {
 	\parenright \percent \period \periodcentered \plus \q \question \questiondown 
 	\quotedbl \quotedblleft \quotedblright \quoteleft \quoteright \quotesingle \r 
 	\s \semicolon \seven \six \slash \space \t \three \two \u \underscore \v \w 
-	\x \y \yen \z \zero ];
-@GDEF_Mark = [\acute \circumflex \dieresis \grave ];
+	\x \y \yen \z \zero  ];
+@GDEF_Mark = [ \acute \circumflex \dieresis \grave  ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
 
 } GDEF;
+
+feature cpsp {
+ script DFLT;
+     language dflt ;
+      lookup cpspCapitalSpacinginLatinlookup;
+
+ script latn;
+     language dflt ;
+      lookup cpspCapitalSpacinginLatinlookup;
+} cpsp;
 
