@@ -12,6 +12,29 @@ lookup kernHorizontalKerninglookup0 {
     pos \L \quotedblleft -70;
     pos \T \f -40;
     pos \T \z -40;
+    pos \T \v -30;
+    pos \T \m -40;
+    pos \T \q -80;
+    pos \T \s -80;
+    pos \T \n -60;
+    pos \T \d -80;
+    pos \T \u -80;
+    pos \T \e -80;
+    pos \T \o -80;
+    pos \T \a -80;
+    pos \T \l -20;
+    pos \T \r -60;
+    pos \T \c -80;
+    pos \T \g -70;
+    pos \T \y -40;
+    pos \T \p -60;
+    pos \T \J -100;
+    pos \T \S -30;
+    pos \T \E -20;
+    pos \T \O -40;
+    pos \T \A -50;
+    pos \T \C -40;
+    pos \T \G -40;
 } kernHorizontalKerninglookup0;
 
 lookup pos_pair_kern_0 {
@@ -21,6 +44,29 @@ lookup pos_pair_kern_0 {
     pos \L \quotedblleft -70;
     pos \T \f -40;
     pos \T \z -40;
+    pos \T \v -30;
+    pos \T \m -40;
+    pos \T \q -80;
+    pos \T \s -80;
+    pos \T \n -60;
+    pos \T \d -80;
+    pos \T \u -80;
+    pos \T \e -80;
+    pos \T \o -80;
+    pos \T \a -80;
+    pos \T \l -20;
+    pos \T \r -60;
+    pos \T \c -80;
+    pos \T \g -70;
+    pos \T \y -40;
+    pos \T \p -60;
+    pos \T \J -100;
+    pos \T \S -30;
+    pos \T \E -20;
+    pos \T \O -40;
+    pos \T \A -50;
+    pos \T \C -40;
+    pos \T \G -40;
 } pos_pair_kern_0;
 
 lookup pos_pair_kern_2 {
@@ -30,7 +76,87 @@ lookup pos_pair_kern_2 {
     pos \L \quotedblleft -70;
     pos \T \f -40;
     pos \T \z -40;
+    pos \T \v -30;
+    pos \T \m -40;
+    pos \T \q -80;
+    pos \T \s -80;
+    pos \T \n -60;
+    pos \T \d -80;
+    pos \T \u -80;
+    pos \T \e -80;
+    pos \T \o -80;
+    pos \T \a -80;
+    pos \T \l -20;
+    pos \T \r -60;
+    pos \T \c -80;
+    pos \T \g -70;
+    pos \T \y -40;
+    pos \T \p -60;
+    pos \T \J -100;
+    pos \T \S -30;
+    pos \T \E -20;
+    pos \T \O -40;
+    pos \T \A -50;
+    pos \T \C -40;
+    pos \T \G -40;
 } pos_pair_kern_2;
+
+lookup pos_pair_kern_4 {
+  lookupflag 0;
+    pos \F \L 0;
+    pos \L \T -80;
+    pos \L \quotedblleft -70;
+    pos \T \J -100;
+    pos \T \S -30;
+    pos \T \E -20;
+    pos \T \O -40;
+    pos \T \A -50;
+    pos \T \C -40;
+    pos \T \G -40;
+    pos \T \f -40;
+    pos \T \z -40;
+    pos \T \v -30;
+    pos \T \m -40;
+    pos \T \q -80;
+    pos \T \s -80;
+    pos \T \n -60;
+    pos \T \d -80;
+    pos \T \u -80;
+    pos \T \e -80;
+    pos \T \o -80;
+    pos \T \a -80;
+    pos \T \l -20;
+    pos \T \r -60;
+    pos \T \c -80;
+    pos \T \g -70;
+    pos \T \y -40;
+    pos \T \p -60;
+} pos_pair_kern_4;
+
+lookup pos_pair_kern_6 {
+  lookupflag 0;
+    pos \F \L 0;
+    pos \L \T -80;
+    pos \L \quotedblleft -70;
+    pos \T \v -30;
+    pos \T \m -40;
+    pos \T \q -80;
+    pos \T \s -80;
+    pos \T \n -60;
+    pos \T \d -80;
+    pos \T \u -80;
+    pos \T \e -80;
+    pos \T \o -80;
+    pos \T \a -80;
+    pos \T \l -20;
+    pos \T \r -60;
+    pos \T \c -80;
+    pos \T \g -70;
+    pos \T \y -40;
+    pos \T \p -60;
+    pos \T \f -40;
+    pos \T \z -40;
+} pos_pair_kern_6;
 
 lookup cpspCapitalSpacinginLatinlookup {
   lookupflag 0;
@@ -76,6 +202,8 @@ feature kern {
       lookup kernHorizontalKerninglookup0;
       lookup pos_pair_kern_0;
       lookup pos_pair_kern_2;
+      lookup pos_pair_kern_4;
+      lookup pos_pair_kern_6;
 } kern;
 
 feature cpsp {
@@ -91,14 +219,15 @@ feature cpsp {
 
 @GDEF_Simple = [\A \Acircumflex \Agrave \B \C \D \E \Eacute \Ecircumflex \Edieresis 
 	\Egrave \F \G \H \I \Idieresis \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \a \aacute 
-	\acircumflex \agrave \ampersand \asciicircum \asterisk \at \b \backslash 
-	\braceleft \braceright \bullet \c \colon \comma \d \dollar \e \eacute \ecircumflex 
-	\edieresis \egrave \eight \ellipsis \emdash \endash \equal \exclam \exclamdown \f 
-	\five \four \g \greater \h \hyphen \i \j \k \l \less \m \n \nine \numbersign \o \one \p 
-	\parenleft \parenright \percent \period \periodcentered \plus \q \question 
-	\questiondown \quotedbl \quotedblleft \quotedblright \quoteleft \quoteright 
-	\quotesingle \r \s \semicolon \seven \six \slash \space \t \three \two \u 
-	\underscore \v \w \x \y \z \yen \zero \cent ];
+	\acircumflex \agrave \ampersand \asciicircum \asterisk \at \b \backslash \bar 
+	\braceleft \braceright \bracketleft \bracketright \bullet \c \cent \colon 
+	\comma \d \dollar \e \eacute \ecircumflex \edieresis \egrave \eight \ellipsis 
+	\emdash \endash \equal \exclam \exclamdown \f \five \four \g \greater \h 
+	\hyphen \i \j \k \l \less \m \n \nine \numbersign \o \one \p \parenleft 
+	\parenright \percent \period \periodcentered \plus \q \question \questiondown 
+	\quotedbl \quotedblleft \quotedblright \quoteleft \quoteright \quotesingle \r 
+	\s \semicolon \seven \six \slash \space \t \three \two \u \underscore \v \w 
+	\x \y \yen \z \zero ];
 @GDEF_Mark = [\acute \circumflex \dieresis \grave ];
 
 table GDEF {
