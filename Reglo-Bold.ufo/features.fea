@@ -1,13 +1,222 @@
-# Prefix: Languagesystems
-# automatic
+# Prefix: Prefix
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+# GPOS 
+lookup kernHorizontalKerninglookup0 {
+  lookupflag 0;
+    pos \F \L 0;
+    pos \L \T -80;
+    pos \L \quotedblleft -70;
+    pos \T \f -40;
+    pos \T \z -40;
+    pos \T \v -30;
+    pos \T \m -40;
+    pos \T \q -80;
+    pos \T \s -80;
+    pos \T \n -60;
+    pos \T \d -80;
+    pos \T \u -80;
+    pos \T \e -80;
+    pos \T \o -80;
+    pos \T \a -80;
+    pos \T \l -20;
+    pos \T \r -60;
+    pos \T \c -80;
+    pos \T \g -70;
+    pos \T \y -40;
+    pos \T \p -60;
+    pos \T \J -100;
+    pos \T \S -30;
+    pos \T \E -20;
+    pos \T \O -40;
+    pos \T \A -50;
+    pos \T \C -40;
+    pos \T \G -40;
+} kernHorizontalKerninglookup0;
 
-# automatic
-@Uppercase = [ A Acircumflex Agrave B C D E Eacute Ecircumflex Edieresis Egrave F G H I Idieresis J K L M N O P Q R S T U V W X Y Z ];
+lookup pos_pair_kern_0 {
+  lookupflag 0;
+    pos \F \L 0;
+    pos \L \T -80;
+    pos \L \quotedblleft -70;
+    pos \T \f -40;
+    pos \T \z -40;
+    pos \T \v -30;
+    pos \T \m -40;
+    pos \T \q -80;
+    pos \T \s -80;
+    pos \T \n -60;
+    pos \T \d -80;
+    pos \T \u -80;
+    pos \T \e -80;
+    pos \T \o -80;
+    pos \T \a -80;
+    pos \T \l -20;
+    pos \T \r -60;
+    pos \T \c -80;
+    pos \T \g -70;
+    pos \T \y -40;
+    pos \T \p -60;
+    pos \T \J -100;
+    pos \T \S -30;
+    pos \T \E -20;
+    pos \T \O -40;
+    pos \T \A -50;
+    pos \T \C -40;
+    pos \T \G -40;
+} pos_pair_kern_0;
+
+lookup pos_pair_kern_2 {
+  lookupflag 0;
+    pos \F \L 0;
+    pos \L \T -80;
+    pos \L \quotedblleft -70;
+    pos \T \f -40;
+    pos \T \z -40;
+    pos \T \v -30;
+    pos \T \m -40;
+    pos \T \q -80;
+    pos \T \s -80;
+    pos \T \n -60;
+    pos \T \d -80;
+    pos \T \u -80;
+    pos \T \e -80;
+    pos \T \o -80;
+    pos \T \a -80;
+    pos \T \l -20;
+    pos \T \r -60;
+    pos \T \c -80;
+    pos \T \g -70;
+    pos \T \y -40;
+    pos \T \p -60;
+    pos \T \J -100;
+    pos \T \S -30;
+    pos \T \E -20;
+    pos \T \O -40;
+    pos \T \A -50;
+    pos \T \C -40;
+    pos \T \G -40;
+} pos_pair_kern_2;
+
+lookup pos_pair_kern_4 {
+  lookupflag 0;
+    pos \F \L 0;
+    pos \L \T -80;
+    pos \L \quotedblleft -70;
+    pos \T \J -100;
+    pos \T \S -30;
+    pos \T \E -20;
+    pos \T \O -40;
+    pos \T \A -50;
+    pos \T \C -40;
+    pos \T \G -40;
+    pos \T \f -40;
+    pos \T \z -40;
+    pos \T \v -30;
+    pos \T \m -40;
+    pos \T \q -80;
+    pos \T \s -80;
+    pos \T \n -60;
+    pos \T \d -80;
+    pos \T \u -80;
+    pos \T \e -80;
+    pos \T \o -80;
+    pos \T \a -80;
+    pos \T \l -20;
+    pos \T \r -60;
+    pos \T \c -80;
+    pos \T \g -70;
+    pos \T \y -40;
+    pos \T \p -60;
+} pos_pair_kern_4;
+
+lookup pos_pair_kern_6 {
+  lookupflag 0;
+    pos \F \L 0;
+    pos \L \T -80;
+    pos \L \quotedblleft -70;
+    pos \T \v -30;
+    pos \T \m -40;
+    pos \T \q -80;
+    pos \T \s -80;
+    pos \T \n -60;
+    pos \T \d -80;
+    pos \T \u -80;
+    pos \T \e -80;
+    pos \T \o -80;
+    pos \T \a -80;
+    pos \T \l -20;
+    pos \T \r -60;
+    pos \T \c -80;
+    pos \T \g -70;
+    pos \T \y -40;
+    pos \T \p -60;
+    pos \T \f -40;
+    pos \T \z -40;
+} pos_pair_kern_6;
+
+lookup cpspCapitalSpacinginLatinlookup {
+  lookupflag 0;
+    pos \A <5 0 10 0>;
+    pos \Acircumflex <5 0 10 0>;
+    pos \Agrave <5 0 10 0>;
+    pos \B <5 0 10 0>;
+    pos \C <5 0 10 0>;
+    pos \D <5 0 10 0>;
+    pos \E <5 0 10 0>;
+    pos \Eacute <5 0 10 0>;
+    pos \Ecircumflex <5 0 10 0>;
+    pos \Edieresis <5 0 10 0>;
+    pos \Egrave <5 0 10 0>;
+    pos \F <5 0 10 0>;
+    pos \G <5 0 10 0>;
+    pos \H <5 0 10 0>;
+    pos \I <5 0 10 0>;
+    pos \Idieresis <5 0 10 0>;
+    pos \J <5 0 10 0>;
+    pos \K <5 0 10 0>;
+    pos \L <5 0 10 0>;
+    pos \M <5 0 10 0>;
+    pos \N <5 0 10 0>;
+    pos \O <5 0 10 0>;
+    pos \P <5 0 10 0>;
+    pos \Q <5 0 10 0>;
+    pos \R <5 0 10 0>;
+    pos \S <5 0 10 0>;
+    pos \T <5 0 10 0>;
+    pos \U <5 0 10 0>;
+    pos \V <5 0 10 0>;
+    pos \W <5 0 10 0>;
+    pos \X <5 0 10 0>;
+    pos \Y <5 0 10 0>;
+    pos \Z <5 0 10 0>;
+} cpspCapitalSpacinginLatinlookup;
+
+@GDEF_Simple = [ \A \Acircumflex \Agrave \B \C \D \E \Eacute \Ecircumflex \Edieresis 
+	\Egrave \F \G \H \I \Idieresis \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \a \aacute 
+	\acircumflex \agrave \ampersand \asciicircum \asterisk \at \b \backslash \bar 
+	\braceleft \braceright \bracketleft \bracketright \bullet \c \cent \colon 
+	\comma \d \dollar \e \eacute \ecircumflex \edieresis \egrave \eight \ellipsis 
+	\emdash \endash \equal \exclam \exclamdown \f \five \four \g \greater \h 
+	\hyphen \i \j \k \l \less \m \n \nine \numbersign \o \one \p \parenleft 
+	\parenright \percent \period \periodcentered \plus \q \question \questiondown 
+	\quotedbl \quotedblleft \quotedblright \quoteleft \quoteright \quotesingle \r 
+	\s \semicolon \seven \six \slash \space \t \three \two \u \underscore \v \w 
+	\x \y \yen \z \zero  ];
+@GDEF_Mark = [ \acute \circumflex \dieresis \grave  ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+
+} GDEF;
 
 feature cpsp {
-# automatic
-pos @Uppercase <5 0 10 0>;
+ script DFLT;
+     language dflt ;
+      lookup cpspCapitalSpacinginLatinlookup;
+
+ script latn;
+     language dflt ;
+      lookup cpspCapitalSpacinginLatinlookup;
 } cpsp;
 

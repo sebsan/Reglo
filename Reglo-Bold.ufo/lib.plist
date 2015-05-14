@@ -10,8 +10,126 @@
 	</dict>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>3974A960-396C-43E2-B089-FF7F6401321E</string>
+	<key>com.schriftgestaltung.glyphOrder</key>
+	<array>
+		<string>A</string>
+		<string>Acircumflex</string>
+		<string>Agrave</string>
+		<string>B</string>
+		<string>C</string>
+		<string>D</string>
+		<string>E</string>
+		<string>Eacute</string>
+		<string>Ecircumflex</string>
+		<string>Edieresis</string>
+		<string>Egrave</string>
+		<string>F</string>
+		<string>G</string>
+		<string>H</string>
+		<string>I</string>
+		<string>Idieresis</string>
+		<string>J</string>
+		<string>K</string>
+		<string>L</string>
+		<string>M</string>
+		<string>N</string>
+		<string>O</string>
+		<string>P</string>
+		<string>Q</string>
+		<string>R</string>
+		<string>S</string>
+		<string>T</string>
+		<string>U</string>
+		<string>V</string>
+		<string>W</string>
+		<string>X</string>
+		<string>Y</string>
+		<string>Z</string>
+		<string>a</string>
+		<string>aacute</string>
+		<string>acircumflex</string>
+		<string>agrave</string>
+		<string>b</string>
+		<string>c</string>
+		<string>d</string>
+		<string>e</string>
+		<string>eacute</string>
+		<string>ecircumflex</string>
+		<string>edieresis</string>
+		<string>egrave</string>
+		<string>f</string>
+		<string>g</string>
+		<string>h</string>
+		<string>i</string>
+		<string>j</string>
+		<string>k</string>
+		<string>l</string>
+		<string>m</string>
+		<string>n</string>
+		<string>o</string>
+		<string>p</string>
+		<string>q</string>
+		<string>r</string>
+		<string>s</string>
+		<string>t</string>
+		<string>u</string>
+		<string>v</string>
+		<string>w</string>
+		<string>x</string>
+		<string>y</string>
+		<string>z</string>
+		<string>zero</string>
+		<string>one</string>
+		<string>two</string>
+		<string>three</string>
+		<string>four</string>
+		<string>five</string>
+		<string>six</string>
+		<string>seven</string>
+		<string>eight</string>
+		<string>nine</string>
+		<string>asterisk</string>
+		<string>backslash</string>
+		<string>periodcentered</string>
+		<string>bullet</string>
+		<string>colon</string>
+		<string>comma</string>
+		<string>ellipsis</string>
+		<string>exclam</string>
+		<string>exclamdown</string>
+		<string>numbersign</string>
+		<string>period</string>
+		<string>question</string>
+		<string>questiondown</string>
+		<string>quotedbl</string>
+		<string>quotesingle</string>
+		<string>semicolon</string>
+		<string>slash</string>
+		<string>underscore</string>
+		<string>parenleft</string>
+		<string>parenright</string>
+		<string>emdash</string>
+		<string>endash</string>
+		<string>hyphen</string>
+		<string>quotedblleft</string>
+		<string>quotedblright</string>
+		<string>quoteleft</string>
+		<string>quoteright</string>
+		<string>space</string>
+		<string>equal</string>
+		<string>greater</string>
+		<string>less</string>
+		<string>plus</string>
+		<string>at</string>
+		<string>ampersand</string>
+		<string>asciicircum</string>
+		<string>acute</string>
+		<string>circumflex</string>
+		<string>dieresis</string>
+		<string>grave</string>
+	</array>
 	<key>com.schriftgestaltung.useNiceNames</key>
-	<false/>
+	<integer>0</integer>
 	<key>com.schriftgestaltung.weight</key>
 	<string>Bold</string>
 	<key>org.robofab.glyphOrder</key>
@@ -233,6 +351,15 @@
 		<string>circumflex</string>
 		<string>dieresis</string>
 		<string>grave</string>
+		<string>braceleft</string>
+		<string>braceright</string>
+		<string>bracketleft</string>
+		<string>bracketright</string>
+		<string>cent</string>
+		<string>dollar</string>
+		<string>yen</string>
+		<string>percent</string>
+		<string>bar</string>
 	</array>
 </dict>
 </plist>
