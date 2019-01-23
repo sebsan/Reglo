@@ -6,8 +6,13 @@
 	<dict>
 		<key>3974A960-396C-43E2-B089-FF7F6401321E</key>
 		<dict>
+		</dict>
 	</dict>
-	</dict>
+	<key>com.schriftgestaltung.DisplayStrings</key>
+	<array>
+	</array>
+	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
+	<false/>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>3974A960-396C-43E2-B089-FF7F6401321E</string>
 	<key>com.schriftgestaltung.glyphOrder</key>
@@ -128,10 +133,10 @@
 		<string>dieresis</string>
 		<string>grave</string>
 	</array>
-	<key>com.schriftgestaltung.useNiceNames</key>
-	<integer>0</integer>
-	<key>com.schriftgestaltung.weight</key>
+	<key>com.schriftgestaltung.master.name</key>
 	<string>Bold</string>
+	<key>com.schriftgestaltung.useNiceNames</key>
+	<false/>
 	<key>org.robofab.glyphOrder</key>
 	<array>
 		<string>space</string>
@@ -351,6 +356,15 @@
 		<string>circumflex</string>
 		<string>dieresis</string>
 		<string>grave</string>
+		<string>Aacute</string>
+		<string>AE</string>
+		<string>Eth</string>
+		<string>Iacute</string>
+		<string>Oacute</string>
+		<string>Odieresis</string>
+		<string>Thorn</string>
+		<string>Uacute</string>
+		<string>Yacute</string>
 		<string>braceleft</string>
 		<string>braceright</string>
 		<string>bracketleft</string>
@@ -360,6 +374,7 @@
 		<string>yen</string>
 		<string>percent</string>
 		<string>bar</string>
+		<string>acute.case</string>
 	</array>
 </dict>
 </plist>
