@@ -130,10 +130,12 @@
 	<integer>0</integer>
 	<key>postscriptUnderlineThickness</key>
 	<integer>0</integer>
+	<key>styleMapFamilyName</key>
+	<string>Reglo Bold</string>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
-	<string>Regular</string>
+	<string>Bold</string>
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
